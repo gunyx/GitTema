@@ -1,0 +1,7 @@
+Clasa Magazin contine:
+	1)Lista angajatilor
+	2)Lista articolelor detinute
+	3)Program de lucru
+	4)Locatie
+	6)metode de cumparare
+	7)metode de detaliere produs
