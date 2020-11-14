@@ -11,5 +11,5 @@ public class Specificatii {
     public int getData() {
         return data;
     }
-    
+
 }
