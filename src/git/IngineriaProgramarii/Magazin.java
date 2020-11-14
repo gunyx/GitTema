@@ -9,6 +9,10 @@ public class Magazin {
     private ArrayList<Persoane>personal_magazin;
     private ArrayList<Electronice>produse_magazin;
 
+    public void setProduse_magazin(Electronice nou) {
+        this.produse_magazin = produse_magazin;
+    }
+
     public Magazin(String nume_magazin, String locatie, String forma_de_lucru) {
         this.nume_magazin = nume_magazin;
         this.locatie = locatie;
