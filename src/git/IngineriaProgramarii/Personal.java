@@ -9,4 +9,5 @@ abstract class Personal {
 
     abstract void afisarePersoana();
     abstract void adaugarePersoana(String nume, String prenume, String specializare, int varsta, Program program);
+    abstract void lucreaza();
 }

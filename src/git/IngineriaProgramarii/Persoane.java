@@ -1,6 +1,6 @@
 package git.IngineriaProgramarii;
 
-public abstract class Persoane extends Personal{
+public class Persoane extends Personal{
 
     public Persoane(String nume, String prenume, String specializare, int varsta, Program program) {
         this.nume = nume;
@@ -8,6 +8,11 @@ public abstract class Persoane extends Personal{
         this.varsta=varsta;
         this.specializare=specializare;
         this.program=program;
+    }
+
+    @Override
+    void lucreaza() {
+        System.out.println("Muncitorul:"+this.nume+" "+this.prenume+" lucreaza");
     }
 
     @Override
