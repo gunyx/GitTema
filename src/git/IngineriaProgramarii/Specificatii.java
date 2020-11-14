@@ -1,6 +1,7 @@
 package git.IngineriaProgramarii;
 
 public class Specificatii {
+
     int data;
 
     public void setData(int data) {
@@ -12,4 +13,7 @@ public class Specificatii {
         return data;
     }
 
+
+    int an_fabricatie;
 }
+
