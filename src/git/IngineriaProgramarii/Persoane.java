@@ -21,12 +21,13 @@ public class Persoane extends Personal{
     }
 
     @Override
-    void adaugarePersoana(String nume, String prenume, String specializare, int varsta, Program program) {
+    void adaugarePersoana(String CNP,String nume, String prenume, String specializare, int varsta, Program program) {
         this.nume=nume;
         this.prenume=prenume;
         this.specializare=specializare;
         this.varsta=varsta;
         this.program=program;
+        this.CNP=CNP;
     }
 
     public void setSpecializare(String specializare) {
